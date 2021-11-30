@@ -7,7 +7,7 @@
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Abduljeleelng\\MvcPhp\\": "src/"
+            "App\\": "app/"
         }
     },
     "authors": [
@@ -17,5 +17,8 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "symfony/routing": "5.4.x-dev",
+        "symfony/http-foundation": "5.4.x-dev"
+    }
 }
