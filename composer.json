@@ -1,0 +1,21 @@
+{
+    "name": "abduljeleelng/mvc-php",
+    "description": "Basic PHP MVC framework composer",
+    "require-dev": {
+        "phpunit/phpunit": "9.5.x-dev"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Abduljeleelng\\MvcPhp\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "abduljeleelng",
+            "email": "abduljeleelng@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
